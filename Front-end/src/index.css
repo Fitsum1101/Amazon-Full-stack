@@ -1,1 +1,7 @@
 @import "tailwindcss";
+select {
+  min-width: 100px; /* Prevent it from being too narrow */
+  max-width: 500px; /* Prevent it from being too wide */
+  padding-right: 20px; /* Space for dropdown arrow */
+  box-sizing: border-box;
+}
